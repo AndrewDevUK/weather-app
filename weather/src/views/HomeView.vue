@@ -3,6 +3,8 @@
 
 <template>
   <main>
-    This is the home page
+    <div  id="container">
+      <span class="btn btn-success">Press Me!</span>
+    </div>
   </main>
 </template>
