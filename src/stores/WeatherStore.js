@@ -3,7 +3,7 @@ import axios from 'axios';
 import { ref } from 'vue';
 
 const API_KEY = 'd9acc0c70fe1453082b124200232606';
-const API_BASE_URL = 'http://api.weatherapi.com/v1/';
+const API_BASE_URL = 'https://api.weatherapi.com/v1/';
 
 export const useWeatherStore = defineStore('product', {
     state: () => ({
